@@ -1,28 +1,36 @@
-h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 48px;
-  margin-bottom: 24px;
+/* BACKGROUND GRADIENT */
+body {
+  background: radial-gradient(
+    circle at top,
+    #FBE4E9,
+    #FFF7F3
+  );
 }
 
-p {
-  font-size: 20px;
-  line-height: 1.8;
-  opacity: 0.9;
+/* ROMANTIC CARD */
+.card {
+  max-width: 700px;
+  padding: 48px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(14px);
+  border-radius: 28px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.12);
 }
 
 /* BUTTON */
 button {
-  margin-top: 40px;
+  margin-top: 32px;
   padding: 14px 36px;
-  border-radius: 40px;
+  font-size: 1rem;
+  border-radius: 999px;
   border: none;
-  font-size: 16px;
   cursor: pointer;
-  background: linear-gradient(135deg, #F6C1CC, #C9A24D);
-  color: white;
-  transition: all 0.6s ease;
+  background: linear-gradient(135deg, #f6c1cc, #c9a24d);
+  color: #fff;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 button:hover {
-  transform: scale(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
