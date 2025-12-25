@@ -15,7 +15,7 @@ const ROOMS = {
 
   tengah: {
     title: "Ruang Tengah",
-    text: "Setiap foto punya ceritanya sendiri.",
+    text: "Setiap foto punya ceritanya sendiri.", 
     music: "assets/music/ruangtengah_lagu.mp3",
     button: "Masuk Lebih Dalam"
   },
