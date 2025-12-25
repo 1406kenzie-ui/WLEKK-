@@ -1,0 +1,23 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY DASAR */
+body {
+  min-height: 100vh;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #FFF7F3;
+  color: #3b1f25;
+  overflow-x: hidden;
+}
+
+/* APP CONTAINER */
+#app {
+  max-width: 900px;
+  margin: auto;
+  padding: 80px 24px;
+  text-align: center;
+}
